@@ -1,0 +1,85 @@
+
+img{
+    width:14px;
+    height:14px;
+    justify-items: center;             /*Used for horizontal Alignment*/
+}
+
+.box{
+                width:35px;
+                height:35px;
+                border:3px solid rgb(20, 20, 163);
+                display:inline-block;  /*it display list item horizontally instead of vertically*/
+                
+                
+            }
+            .black{
+                background-color:rgb(18, 62, 151);
+                text-decoration:dotted;                    /*it decorate the text with different kinds of lines*/
+                border:3px solid black;
+                
+            }
+            .bd{
+                background: rgb(10, 246, 38);
+            } 
+            
+            .h1{
+                font-size:40px;
+                color:rgb(92, 27, 76);
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                text-align:center;
+                font-style: italic;
+                
+            }
+            h3{
+                font-size:35px ;
+                text-align: left;
+                text-decoration:dotted;
+                font-style:inherit;
+                color:rgb(118, 9, 60);
+                font-family:Arial, Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .hh3{
+                font-size:35px;
+                color:rgb(16, 16, 123);
+                font-style:italic;
+                text-align:center;
+            }
+            .back{
+                font-size:30px;
+                color:rgb(8, 56, 59);
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-style: italic;
+                margin-top: 0%;
+                text-align:center;
+
+            }
+
+            .queen{
+                font-size:40px;
+                color:rgba(21, 104, 61, 0.292);
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-style: italic;
+                margin-top: 0%;
+                text-align:center;
+
+            }
+            .hd{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color:rgba(105, 5, 5, 0.888);
+                font-style: italic;
+                font-size: 35px;
+                text-align:left;
+            }
+            .h2{
+                font-size: 30px;
+                font-family: 'Times New Roman', Times, serif;
+                text-transform: inherit;           /*it transforms how to capitlize a text in all uppercase/lowercase*/
+            }
+               
+        button{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-style:italic;
+            background-color: pink;
+        }

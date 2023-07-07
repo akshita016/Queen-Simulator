@@ -1,0 +1,28 @@
+/*universal selector*->Used to set a style for all the elements of an html page*/
+
+ul{
+    list-style-type:none;
+    float:right;
+    margin-top:25px;
+
+}
+ul li{
+    display:inline-block;/*allows to set a width and height on the element*/
+
+}
+ul li a{
+    text-decoration:none;
+    color:rgb(30, 53, 39);
+    padding:5px;
+    border:2px solid rgb(33, 67, 31);
+}
+ul li a:hover{
+    background-color: rgb(36, 98, 148);
+    color:rgba(44, 53, 18, 0.922);
+}
+
+ul li.active a{
+    background-color: rgb(70, 205, 58);
+    color:black;
+}
+
